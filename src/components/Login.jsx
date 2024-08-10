@@ -13,7 +13,7 @@ const LoginPage = ({setUsername}) => {
   const handleLogin = () => {
     if (localUsername.trim() && localPassword.trim()) {
       if (
-        localUsername.toLocaleLowerCase() === "ergjus" &&
+        localUsername.toLocaleLowerCase() === "rudolph" &&
         localPassword === "12345"
       ) {
         setUsername(localUsername); // Set the username in App
